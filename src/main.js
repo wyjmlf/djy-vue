@@ -21,7 +21,7 @@ Vue.use(ElementUI, {
 });
 Vue.prototype.$axios = axios;
 // axios.defaults.baseURL = 'http://121.42.242.95:2101/security-path-djy';
-axios.defaults.baseURL = 'http://localhost:2101/security-path-djy';
+axios.defaults.baseURL = 'http://94.191.54.168:2101/security-path-djy';
 // 添加请求拦截器
 axios.interceptors.request.use(function (config) {
     var token = localStorage.getItem("djy_token");
